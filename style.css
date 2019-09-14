@@ -1,0 +1,65 @@
+/*general css*/
+body{
+	font-family: 'Shadows Into Light', cursive;
+	margin: 0px;
+}
+
+#main-links li{
+	display: inline;
+}
+
+#main-links li a{
+	padding: 20px;
+	color: black;
+	text-decoration: none;
+
+}
+
+#nav{
+	background-color: aquamarine;
+	display: flex; 
+	justify-content: space-between; 
+	align-items: center;
+
+}
+
+#main-links{
+	margin: 0px;
+	padding: 20px;
+
+
+}
+#social-links{
+	margin:0px;
+	padding: 20px;
+	display: flex;
+	list-style-type: none;
+ 	border: 1px solid black;
+}
+
+#landing-area{
+	background-image:url(landing.jpg);
+	padding: 350px;
+	background-size: cover;
+	display: flex;
+	
+
+}
+
+#caption{
+		align-items: stretch;
+	
+}
+
+
+#services{
+		margin-top: 10px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+@media screen and (max-width: 700px){
+
+
+}
